@@ -1,7 +1,7 @@
 import React from 'react'
 
 function TodoItem({ todo }) {
-    
+    const {updateTodo,completed,} = useTodo
 
     return (
         <div
